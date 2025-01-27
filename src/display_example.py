@@ -30,7 +30,7 @@ if submit:
     The function sends a GET request to the FastAPI endpoint to retrieve all trainers.
     It then filters the results to find the trainer whose name matches the input.
     """
-    result = requests.get("http://127.0.0.1:9001/trainers").json()
+    result = requests.get("http://127.0.0.1:3333/trainers").json()
 
     for trainer in result:
         if trainer["name"] == text:
