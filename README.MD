@@ -52,7 +52,7 @@ API_It_with_DB
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/cKryn/API_It_with_DB.git
     cd API_It_with_DB
     ```
 
